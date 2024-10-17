@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head-logo{
+    margin: 25px 0;
+    margin-left: 106px;
+}
+.head-links{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50%;
+    width: 30%;
+}
+.head-links a{
+    margin: 25px 0;
+    width: max-content;
+    /* margin-right: 300px; */
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+.head-elipse img{ 
+    margin-top: 0;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}

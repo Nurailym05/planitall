@@ -1,0 +1,36 @@
+.blog{
+    margin-top: 100px;
+}
+.blog h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+.blog-section{
+    display: flex;
+    gap: 10%;
+    /* justify-content: space-between; */
+    margin: 100px 100px
+}
+.blog-img{
+    width: 30%;
+}
+.blog-right{
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+}
+.blog-item{
+    /* height: 50px; */
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Выровнять по вертикали */
+    height: 50px; /* Установите нужную высоту */
+}
+.blog-item hr {
+    width: 1px; /* Ширина линии */
+    height: 100px; /* Высота линии */
+    background-color: black; /* Цвет линии */
+    border: none; /* Убрать стандартные стили */
+}

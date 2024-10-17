@@ -1,0 +1,22 @@
+.about-right img{
+width: 659x;
+height: 429px;
+z-index: 2;
+}
+.about-left h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 209px;
+}
+.about-left p{
+    margin-top: 30px;
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.about{
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
